@@ -10,15 +10,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body{
-      width: 100%;
-      max-width: 600px;
+      padding: 1rem;
       margin: auto;
       font-family: 'Open Sans', sans-serif;
       color: rgba(255, 255, 255, 0.8);
       background-color: rgba(0, 0, 0, 1);
     }
+    main, footer {
+      margin: auto;
+      width: 100%;
+      max-width: 600px;
+    }
     header {
-      padding-top: 10rem;
+      margin: auto;
+      width: 100%;
+      max-width: 600px;
+      padding-top: 0rem;
       margin-bottom: 8rem;
     }
     p {
@@ -87,12 +94,19 @@
     }
     .splash {
       width: 100%;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .banner {
+      text-align:center;
     }
   </style>
 </head>
 <body>
-  <header>
+  <div class="banner">
     <img class="splash" src="images/unsplash.jpg">
+  </div>
+  <header>
     <h1>A Big Bold Statement About Storytelling Will Go Here</h1>
     <p class="large-paragraph">This is where a broad statement about what we do will go, a punchy one sentence value proposal thing.</p>
     <input type="email" name="email" maxlength="254" required="" id="id_email"><span class="input-border"><input type="submit" value="Subscribe"></span>
