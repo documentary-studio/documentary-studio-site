@@ -39,12 +39,9 @@
     }
     .logo-container {
       margin-top: 2rem;
-      display: flex;
-      align-items: left;
-      justify-content: center;
     }
     .logo {
-      width: 33%;
+      width: 30%;
       display: inline-block;
       text-align: left;
       opacity: 0.8;
@@ -53,6 +50,12 @@
     .logo:hover {
         opacity: 1.0;
         filter: alpha(opacity=100);
+    }
+    @media only screen and (max-width: 600px) {
+      .logo {
+        width: 49%;
+        max-width: 200px;
+      }
     }
     h2, footer {
       margin-top: 4rem;
